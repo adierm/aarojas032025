@@ -1,0 +1,86 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(113, 53, 53);
+}
+
+.container {
+  max-width: 75rem;
+  min-height: 10rem;
+  margin: auto;
+  background-color: white;
+  padding: 1rem;
+}
+#pageheader {
+  background-color: solid grey;
+  min-height: 0.25rem;
+  padding: 0.25rem;
+}
+#logo {
+  background-image: url(Images/logocat.png);
+  width: 6.25rem;
+  height: 6.25rem;
+  border: 1px solid none;
+}
+#pageheader .container {
+  background-color: rgb(29, 45, 72);
+  min-height: auto;
+}
+
+#pageheader nav {
+  text-align: center;
+}
+#media {
+  background-color: rgb(122, 122, 155);
+  min-height: 10rem;
+  padding: 1rem;
+  background-image: url(Images/NicaLuffyWithGogglesFallign.png);
+  background-size: cover;
+  aspect-ratio: 16 / 9;
+}
+#career {
+  background-color: rgb(149, 134, 181);
+  min-height: 10rem;
+  padding: 1rem;
+}
+#pagecontent {
+  background-color: rgb(181, 134, 177);
+  min-height: 10rem;
+  padding: 1rem;
+}
+blockquote + span {
+}
+#semester1 {
+  background-color: rgb(181, 140, 134);
+  min-height: 10rem;
+  padding: 1rem;
+}
+#semester2 {
+  background-color: rgb(149, 134, 181);
+  min-height: 10rem;
+  padding: 1rem;
+}
+#pagefooter {
+  background-color: rgb(181, 165, 134);
+  min-height: auto;
+  padding: 1rem;
+}
+#pagefooter .container {
+  background-color: rgb(74, 74, 97);
+  min-height: auto;
+  text-align: center;
+}
+#subfooter {
+  background-color: rgb(146, 181, 134);
+  min-height: 10rem;
+  padding: 1rem;
+  text-align: center;
+}
+audio {
+  border: 5px solid steelblue;
+  background-color: steelblue;
+  display: block;
+  margin: auto;
+}
