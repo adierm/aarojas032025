@@ -14,7 +14,7 @@ body {
   padding: 1rem;
 }
 #pageheader {
-  background-color: solid grey;
+  background-color: solid rgb(114, 114, 114);
   min-height: 0.25rem;
   padding: 0.25rem;
 }
