@@ -10,11 +10,11 @@ body {
   max-width: 75rem;
   min-height: 10rem;
   margin: auto;
-  background-color: white;
+  background-color: transparent;
   padding: 1rem;
 }
 #pageheader {
-  background-color: solid #fce4ec;
+  /* background-color: solid #fce4ec; */
   min-height: 0.25rem;
   padding: 0.25rem;
 }
@@ -27,7 +27,7 @@ body {
   border-radius: 0.5rem;
 }
 #pageheader .container {
-  background-color: #f48fb1;
+  /* background-color: #f48fb1; */
   min-height: auto;
 }
 
