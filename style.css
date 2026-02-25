@@ -1,3 +1,12 @@
+/* Mobile Styles - Default */
+
+:root {
+  --primary-color: #fee6ee;
+  --secondary-color: #fee6ee;
+  --tertiary-color: #fee6ee;
+  --main-font: arial;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -10,7 +19,7 @@ body {
   max-width: 75rem;
   min-height: 10rem;
   margin: auto;
-  background-color: transparent;
+  background-color: #ffeef4;
   padding: 1rem;
 }
 #pageheader {
@@ -25,6 +34,8 @@ body {
   border: 1px solid none;
   background-size: cover;
   border-radius: 0.5rem;
+  margin: auto;
+  transition: all 2s;
 }
 #pageheader .container {
   /* background-color: #f48fb1; */
@@ -36,7 +47,7 @@ body {
 }
 
 #pageheader nav ul {
-  background-color: pink;
+  background-color: #aec3ae;
   margin: 0px;
   list-style-type: none;
   padding: 0;
@@ -45,15 +56,15 @@ body {
 }
 
 #pageheader nav ul li {
-  border: 2px solid lightpink;
+  border: 2px solid #94a684;
   padding: 1rem;
   margin: 2px;
-  background-color: lightyellow;
+  background-color: #e4e4d0;
   border-radius: 0.5rem;
 }
 
 #pageheader nav ul li:hover {
-  background-color: #ffdbe9;
+  background-color: #fee6ee;
 }
 
 #media {
@@ -70,7 +81,7 @@ body {
   padding: 1rem;
 }
 #pagecontent {
-  background-color: rgb(181, 134, 177);
+  background-color: #e7cccc;
   min-height: 10rem;
   padding: 1rem;
 }
@@ -122,9 +133,15 @@ audio {
   margin: auto;
 }
 
+/* Table View */
+
 @media screen and (min-width: 600px) {
   #pageheader nav ul {
     margin-top: 2rem;
+  }
+
+  #logo {
+    margin: 0;
   }
 
   #pageheader nav ul li {
@@ -132,8 +149,10 @@ audio {
   }
 
   #pagecontent {
-    background-color: red;
+    background-color: rgb(193, 155, 189);
   }
+
+  /* Desktop View */
 }
 @media screen and (min-width: 1000px) {
   #pagecontent {
