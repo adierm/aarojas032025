@@ -69,7 +69,10 @@ body {
 
 #media {
   background-color: rgb(122, 122, 155);
-  min-height: 10rem;
+  /* min-height: 10rem; */
+  height: 70vh;
+  background-position: center center;
+  margin: auto;
   padding: 1rem;
   background-image: url(Images/NicaLuffyWithGogglesFallign.png);
   background-size: cover;
@@ -96,6 +99,28 @@ blockquote + span {
   background-color: #ffdbe9;
   min-height: 10rem;
   padding: 1rem;
+}
+#worksamples {
+  background-color: #ffdbe9;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#worksamples ul {
+  list-style-type: none;
+}
+#worksamples i {
+  color: hotpink;
+}
+#certificates {
+  background-color: #ffdbe9;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#certificates ul {
+  list-style-type: none;
+}
+#certificates i {
+  color: hotpink;
 }
 #pagefooter {
   background-color: #ffb6c1;
