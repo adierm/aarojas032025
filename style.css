@@ -51,7 +51,7 @@ ul {
 }
 
 #pageheader nav ul {
-  background-color: #aec3ae;
+  background-color: #f9efff;
   margin: 0px;
   list-style-type: none;
   padding: 0;
@@ -63,12 +63,12 @@ ul {
   border: 2px solid #94a684;
   padding: 1rem;
   margin: 2px;
-  background-color: #e4e4d0;
+  background-color: #a6e3e9;
   border-radius: 0.5rem;
 }
 
 #pageheader nav ul li:hover {
-  background-color: #fee6ee;
+  background-color: #a6e3e9;
 }
 
 #media {
@@ -83,31 +83,46 @@ ul {
   aspect-ratio: 16 / 9;
 }
 #career {
-  background-color: #ffdbe9;
-  min-height: 10rem;
-  padding: 1rem;
+  padding: 1.5rem;
+  background-color: A6E3E9;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
 }
 #pagecontent {
-  background-color: #e7cccc;
-  min-height: 10rem;
-  padding: 1rem;
+  padding: 1.5rem;
+  background-color: rgb(197, 208, 245);
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
 }
 blockquote + span {
 }
 #semester1 {
-  background-color: #ffdbe9;
-  min-height: 10rem;
-  padding: 1rem;
+  padding: 1.5rem;
+  background-color: rgb(197, 208, 245);
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
 }
 #semester2 {
-  background-color: #ffdbe9;
-  min-height: 10rem;
-  padding: 1rem;
+  padding: 1.5rem;
+  background-color: rgb(197, 208, 245);
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
 }
 #worksamples {
-  background-color: #ffdbe9;
-  min-height: 10rem;
-  padding: 1rem;
+  padding: 1.5rem;
+  background-color: rgb(197, 208, 245);
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
 }
 #worksamples ul {
   list-style-type: none;
@@ -116,9 +131,12 @@ blockquote + span {
   color: hotpink;
 }
 #certificates {
-  background-color: #ffdbe9;
-  min-height: 10rem;
-  padding: 1rem;
+  padding: 1.5rem;
+  background-color: rgb(197, 208, 245);
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
 }
 #certificates ul {
   list-style-type: none;
